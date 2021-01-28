@@ -71,3 +71,46 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .row {
+    width: 100%;
+    padding: 0 20px;
+    margin: 60px 0;
+  }
+
+  .grey .row {
+    padding: 35px 20px;
+  }
+
+  .row > div {
+    float: none !important;
+    width: 100% !important;
+    margin: 50px 0 0 !important;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  hr {
+    margin-top: 50px;
+  }
+
+  h3 {
+    margin: 20px 0;
+  }
+
+}
